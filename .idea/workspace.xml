@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SnakeGame:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8420d05-ef6f-45ef-8c45-cdf3f0a2545c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b8vrIBF9fSO5GdqF7ZCZuzbRvW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntroductionToPrograming/CSE205/src/QuicksortMergeSort/Sorts.java" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SnakeGame\src\LeaderBoard" />
+      <recent name="D:\SnakeGame\src\GameObject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Java Scratch" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SnakeGame" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Main.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8420d05-ef6f-45ef-8c45-cdf3f0a2545c" name="Default Changelist" comment="" />
+      <created>1588026732948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588026732948</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588036861012">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="383" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588036861012" />
+    <state x="734" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1588041893852">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="734" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588041893852" />
+    <state x="659" y="323" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588051013770">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="659" y="323" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051013770" />
+    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588029302322">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588029302322" />
+    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1588045862868">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="709" y="295" key="FileChooserDialogImpl/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588045862868" />
+    <state width="1020" height="21" key="GridCell.Tab.0.bottom" timestamp="1588051197620">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1020" height="21" key="GridCell.Tab.0.bottom/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
+    <state width="1020" height="21" key="GridCell.Tab.0.center" timestamp="1588051197620">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1020" height="21" key="GridCell.Tab.0.center/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
+    <state width="1020" height="21" key="GridCell.Tab.0.left" timestamp="1588051197620">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1020" height="21" key="GridCell.Tab.0.left/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
+    <state width="1020" height="21" key="GridCell.Tab.0.right" timestamp="1588051197620">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1020" height="21" key="GridCell.Tab.0.right/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
+    <state x="409" y="114" key="SettingsEditor" timestamp="1588051020364">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="409" y="114" key="SettingsEditor/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051020364" />
+    <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1" timestamp="1588040899385">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588040899385" />
+    <state x="585" y="250" key="run.anything.popup" timestamp="1588048282457">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="585" y="250" key="run.anything.popup/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588048282457" />
+  </component>
+</project>
