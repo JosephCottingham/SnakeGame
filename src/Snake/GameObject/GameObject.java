@@ -1,4 +1,4 @@
-package GameObject;
+package Snake.GameObject;
 
 abstract public class GameObject {
     protected int ID, areaX, areaY;

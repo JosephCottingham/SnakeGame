@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b8vrIBF9fSO5GdqF7ZCZuzbRvW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,12 +29,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntroductionToPrograming/CSE205/src/QuicksortMergeSort/Sorts.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,17 +109,80 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1020" height="21" key="GridCell.Tab.0.right/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
-    <state x="409" y="114" key="SettingsEditor" timestamp="1588051020364">
+    <state x="521" y="198" key="PlantUMLSettings" timestamp="1588053424442">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="409" y="114" key="SettingsEditor/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051020364" />
-    <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1" timestamp="1588040899385">
+    <state x="521" y="198" key="PlantUMLSettings/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053424442" />
+    <state x="409" y="114" key="SettingsEditor" timestamp="1588053252879">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="409" y="114" key="SettingsEditor/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053252879" />
+    <state x="624" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1588053276733">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="624" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053276733" />
+    <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1" timestamp="1588051887424">
       <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588040899385" />
+    <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051887424" />
+    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1588053355765">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053355765" />
     <state x="585" y="250" key="run.anything.popup" timestamp="1588048282457">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="585" y="250" key="run.anything.popup/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588048282457" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile0" value="file://$USER_HOME$/Desktop/test.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/../" />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

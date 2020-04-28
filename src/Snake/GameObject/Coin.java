@@ -1,4 +1,4 @@
-package GameObject;
+package Snake.GameObject;
 
 import java.util.Random;
 

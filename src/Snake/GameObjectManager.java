@@ -1,6 +1,8 @@
-import GameObject.GameObject;
-import GameObject.MyStack;
-import GameObject.*;
+package Snake;
+
+import Snake.GameObject.GameObject;
+import Snake.GameObject.MyStack;
+import Snake.GameObject.*;
 
 // stores game objects and manages interation
 public class GameObjectManager {

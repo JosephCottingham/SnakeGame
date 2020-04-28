@@ -1,4 +1,6 @@
-import Graphics.*;
+package Snake;
+
+import Snake.Graphics.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyListener;

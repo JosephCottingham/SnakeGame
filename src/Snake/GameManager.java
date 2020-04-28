@@ -1,5 +1,7 @@
-import LeaderBoard.LeaderBoardAdaptor;
-import LeaderBoard.LeaderBoardManager;
+package Snake;
+
+import Snake.LeaderBoard.LeaderBoardAdaptor;
+import Snake.LeaderBoard.LeaderBoardManager;
 
 public class GameManager extends Thread{
     private int areaY = 16;

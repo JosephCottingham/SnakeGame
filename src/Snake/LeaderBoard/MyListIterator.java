@@ -5,7 +5,7 @@ standard java.util.ListIterator interface. The methods for
 backward traversal are not included.
 */
 
-package LeaderBoard;
+package Snake.LeaderBoard;
 
 public interface MyListIterator
 {

@@ -3,9 +3,8 @@
 // Author: Joseph H Cottingham | 1216723703
 // Description: Implementaion of MyList to create a duplication for the java util LinkList class
 
-package LeaderBoard;
+package Snake.LeaderBoard;
 
-import java.nio.file.NotDirectoryException;
 import java.util.NoSuchElementException;
 
 public class MyLinkedList<T extends Object> {

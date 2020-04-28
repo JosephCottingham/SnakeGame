@@ -3,7 +3,7 @@
 // Author: Joseph H Cottingham | 1216723703
 // Description: Implementaion of IStack
 
-package GameObject;
+package Snake.GameObject;
 
 import java.util.NoSuchElementException;
 

@@ -1,6 +1,4 @@
-package GameObject;
-
-import javafx.geometry.HPos;
+package Snake.GameObject;
 
 public class Position {
     private int[] yValues;

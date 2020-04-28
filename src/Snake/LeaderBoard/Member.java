@@ -1,4 +1,4 @@
-package LeaderBoard;
+package Snake.LeaderBoard;
 
 import java.util.regex.Pattern;
 

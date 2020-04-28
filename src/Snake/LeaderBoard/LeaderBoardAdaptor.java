@@ -1,4 +1,4 @@
-package LeaderBoard;
+package Snake.LeaderBoard;
 
 import java.io.*;
 import java.util.ArrayList;

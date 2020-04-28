@@ -1,4 +1,4 @@
-package Graphics;
+package Snake.Graphics;
 
 import javax.swing.*;
 import java.awt.*;

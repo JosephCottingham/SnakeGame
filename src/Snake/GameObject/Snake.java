@@ -1,9 +1,4 @@
-package GameObject;
-
-import java.lang.reflect.Array;
-import java.security.PublicKey;
-import java.util.ArrayList;
-import java.util.Arrays;
+package Snake.GameObject;
 
 public class Snake extends GameObject{
     private int headX;

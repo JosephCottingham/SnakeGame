@@ -1,4 +1,4 @@
-package GameObject;
+package Snake.GameObject;
 
 public class Wall extends GameObject {
     private int height;
