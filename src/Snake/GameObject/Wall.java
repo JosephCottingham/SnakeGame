@@ -1,44 +1,49 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Used to generate/display the wall, and cause gameover when the snake touches it
+
 package Snake.GameObject;
 
 public class Wall extends GameObject {
     private int height;
     private int width;
 
-    public Wall(int areaX, int areaY){
+    public Wall(int areaX, int areaY) {
         height = areaY;
         width = areaX;
-        position = genWallsPos(0, 0, 0, new int[(2*areaX) + ((2*areaY)-2)], new int[(2*areaX) + ((2*areaY)-2)]);
+        position = genWallsPos(0, 0, 0, new int[(2 * areaX) + ((2 * areaY) - 2)], new int[(2 * areaX) + ((2 * areaY) - 2)]);
 
     }
 
-    private Position genWallsPos(int y, int x, int pos, int[] xVals, int[] yVals){
-            boolean change=false;
-            if (x<width) {
-                change = true;
-                xVals[pos] = x;
-                yVals[pos] = 0;
-                pos++;
-            }
-            if (y<height) {
-                change = true;
-                xVals[pos] = 0;
-                yVals[pos] = y;
-                pos++;
-            }
-            if (x<width-1) {
-                change = true;
-                xVals[pos] = width - 1 - x;
-                yVals[pos] = height - 1;
-                pos++;
-            }
-            if (y<height-1) {
-                change = true;
-                xVals[pos] = width - 1;
-                yVals[pos] = height - 1 - y;
-                pos++;
-            }
-            if (change) return genWallsPos(++y, ++x, pos, xVals, yVals);
-            else return new Position(xVals, yVals, xVals.length);
+    private Position genWallsPos(int y, int x, int pos, int[] xVals, int[] yVals) {
+        boolean change = false;
+        if (x < width) {
+            change = true;
+            xVals[pos] = x;
+            yVals[pos] = 0;
+            pos++;
+        }
+        if (y < height) {
+            change = true;
+            xVals[pos] = 0;
+            yVals[pos] = y;
+            pos++;
+        }
+        if (x < width - 1) {
+            change = true;
+            xVals[pos] = width - 1 - x;
+            yVals[pos] = height - 1;
+            pos++;
+        }
+        if (y < height - 1) {
+            change = true;
+            xVals[pos] = width - 1;
+            yVals[pos] = height - 1 - y;
+            pos++;
+        }
+        if (change) return genWallsPos(++y, ++x, pos, xVals, yVals);
+        else return new Position(xVals, yVals, xVals.length);
     }
 
     @Override
@@ -77,4 +82,4 @@ public class Wall extends GameObject {
 
     }
 
-};
+}

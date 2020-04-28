@@ -1,3 +1,8 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Holds data for current location, including all parts if the gameobject cover more then one black in the matrix
+
 package Snake.GameObject;
 
 public class Position {
@@ -5,13 +10,13 @@ public class Position {
     private int[] xValues;
     public int length;
 
-    public Position(int[] yValues, int[] xValues, int length){
+    public Position(int[] yValues, int[] xValues, int length) {
         this.yValues = yValues;
         this.xValues = xValues;
         this.length = length;
     }
 
-    public void setYX(int[] yValues, int[] xValues, int length){
+    public void setYX(int[] yValues, int[] xValues, int length) {
         this.yValues = yValues;
         this.xValues = xValues;
         this.length = length;

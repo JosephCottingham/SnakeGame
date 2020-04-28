@@ -12,9 +12,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -31,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UML" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -39,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SnakeGame\UML" />
       <recent name="D:\SnakeGame\src\LeaderBoard" />
       <recent name="D:\SnakeGame\src\GameObject" />
     </key>
@@ -89,46 +95,51 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588029302322" />
-    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1588045862868">
+    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1588054823853">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="709" y="295" key="FileChooserDialogImpl/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588045862868" />
-    <state width="1020" height="21" key="GridCell.Tab.0.bottom" timestamp="1588051197620">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="709" y="295" key="FileChooserDialogImpl/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588054823853" />
+    <state width="907" height="42" key="GridCell.Tab.0.bottom" timestamp="1588061625472">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1020" height="21" key="GridCell.Tab.0.bottom/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
-    <state width="1020" height="21" key="GridCell.Tab.0.center" timestamp="1588051197620">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="907" height="42" key="GridCell.Tab.0.bottom/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@-1920.0.1858.1080" timestamp="1588061625472" />
+    <state width="907" height="42" key="GridCell.Tab.0.bottom/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588056600637" />
+    <state width="907" height="42" key="GridCell.Tab.0.center" timestamp="1588061625472">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1020" height="21" key="GridCell.Tab.0.center/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
-    <state width="1020" height="21" key="GridCell.Tab.0.left" timestamp="1588051197620">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="907" height="42" key="GridCell.Tab.0.center/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@-1920.0.1858.1080" timestamp="1588061625472" />
+    <state width="907" height="42" key="GridCell.Tab.0.center/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588056600637" />
+    <state width="907" height="42" key="GridCell.Tab.0.left" timestamp="1588061625472">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1020" height="21" key="GridCell.Tab.0.left/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
-    <state width="1020" height="21" key="GridCell.Tab.0.right" timestamp="1588051197620">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="907" height="42" key="GridCell.Tab.0.left/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@-1920.0.1858.1080" timestamp="1588061625472" />
+    <state width="907" height="42" key="GridCell.Tab.0.left/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588056600637" />
+    <state width="907" height="42" key="GridCell.Tab.0.right" timestamp="1588061625472">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1020" height="21" key="GridCell.Tab.0.right/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051197620" />
+    <state width="907" height="42" key="GridCell.Tab.0.right/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@-1920.0.1858.1080" timestamp="1588061625472" />
+    <state width="907" height="42" key="GridCell.Tab.0.right/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588056600637" />
     <state x="521" y="198" key="PlantUMLSettings" timestamp="1588053424442">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="521" y="198" key="PlantUMLSettings/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053424442" />
-    <state x="409" y="114" key="SettingsEditor" timestamp="1588053252879">
+    <state x="409" y="114" key="SettingsEditor" timestamp="1588094581943">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="409" y="114" key="SettingsEditor/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053252879" />
-    <state x="624" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1588053276733">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="409" y="114" key="SettingsEditor/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588094581943" />
+    <state x="-1296" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1588090715979">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state x="624" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053276733" />
+    <state x="-1296" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@-1920.0.1858.1080" timestamp="1588090715979" />
+    <state x="624" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588056015408" />
     <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1" timestamp="1588051887424">
       <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
     <state x="-1920" y="0" width="1582" height="1067" maximized="true" key="dock-window-1/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588051887424" />
-    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1588053355765">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="-863" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1588056063827">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
-    <state x="0" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588053355765" />
+    <state x="-863" y="0" width="136" height="100" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1858.1080/-1920.0.1858.1080/1920.0.1080.1880@0.0.1858.1080" timestamp="1588056063827" />
     <state x="585" y="250" key="run.anything.popup" timestamp="1588048282457">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -137,7 +148,13 @@
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
       <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/..//game.suml" />
+      <option name="knownFile2" value="file://$PROJECT_DIR$/..//test.suml" />
       <option name="knownFile0" value="file://$USER_HOME$/Desktop/test.suml" />
+      <option name="knownFile5" value="file://$PROJECT_DIR$/../test.suml" />
+      <option name="knownFile6" value="file://$PROJECT_DIR$/../test2.suml" />
+      <option name="knownFile3" value="file://$PROJECT_DIR$/..//test2.suml" />
+      <option name="knownFile4" value="file://$PROJECT_DIR$/../game.suml" />
       <option name="defaultFileLocation" value="file://$PROJECT_DIR$/../" />
     </General>
     <Classdiagram>

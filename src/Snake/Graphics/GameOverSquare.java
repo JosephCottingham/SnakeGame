@@ -1,3 +1,8 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Square for game over, which holds widgets that display data
+
 package Snake.Graphics;
 
 import javax.swing.*;

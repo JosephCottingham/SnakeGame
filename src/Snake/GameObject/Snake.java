@@ -1,34 +1,39 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Holds the data for the snake, which the user is directing
+
 package Snake.GameObject;
 
-public class Snake extends GameObject{
+public class Snake extends GameObject {
     private int headX;
     private int headY;
 
-    public Snake(int ID, int areaX, int areaY){
+    public Snake(int ID, int areaX, int areaY) {
         this.areaX = areaX;
         this.areaY = areaY;
         this.ID = ID;
-        headY = areaY/2;
-        headX = areaX/2;
+        headY = areaY / 2;
+        headX = areaX / 2;
         position = new Position(new int[]{headY}, new int[]{headX}, 1);
     }
 
 
     @Override
-    public void collected(){
-        for (int y = 0; y < position.length; y++){
+    public void collected() {
+        for (int y = 0; y < position.length; y++) {
             System.out.print(position.getX(y));
         }
-        for (int y = 0; y < position.length; y++){
+        for (int y = 0; y < position.length; y++) {
             System.out.print(position.getY(y));
         }
-        int[] tempX = new int[position.length+1];
-        int[] tempY = new int[position.length+1];
-        for (int x = 0; x < position.length; x++){
+        int[] tempX = new int[position.length + 1];
+        int[] tempY = new int[position.length + 1];
+        for (int x = 0; x < position.length; x++) {
             tempX[x] = position.getX(x);
             tempY[x] = position.getY(x);
         }
-        position.setYX(tempY, tempX, position.length+1);
+        position.setYX(tempY, tempX, position.length + 1);
     }
 
 
@@ -43,13 +48,13 @@ public class Snake extends GameObject{
     }
 
     @Override
-    public void move(){
+    public void move() {
         System.out.println("MOVE");
-        for (int x = position.length-1; x > 0; --x){
-            position.setY(x, position.getY(x-1));
-            position.setX(x, position.getX(x-1));
+        for (int x = position.length - 1; x > 0; --x) {
+            position.setY(x, position.getY(x - 1));
+            position.setX(x, position.getX(x - 1));
         }
-        switch (dir){
+        switch (dir) {
             case 0:
                 headY--;
                 position.setY(0, headY);

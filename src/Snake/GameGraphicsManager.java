@@ -1,9 +1,15 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Manages the game graphics
+
 package Snake;
 
-import Snake.Graphics.*;
+import Snake.Graphics.GameOverSquare;
+import Snake.Graphics.Square;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyListener;
 
 public class GameGraphicsManager extends JFrame {
     private Square[][] screenMatrix;
@@ -16,10 +22,10 @@ public class GameGraphicsManager extends JFrame {
         this.areaX = areaX;
         this.areaY = areaY;
         setTitle("Snake Game");
-        setSize(700,700);
+        setSize(700, 700);
         setVisible(true);
 
-        this.addKeyListener((KeyListener) new KeyboardListener());
+        this.addKeyListener(new KeyboardListener());
     }
 
     public void init() {
@@ -29,16 +35,16 @@ public class GameGraphicsManager extends JFrame {
 
         // clears pane and filles with screenMatrix
         getContentPane().removeAll();
-        getContentPane().setLayout(new GridLayout(areaY,areaX,0,0));
-        for(int i=0;i<areaY;i++){
-            for(int j=0;j<areaX;j++){
+        getContentPane().setLayout(new GridLayout(areaY, areaX, 0, 0));
+        for (int i = 0; i < areaY; i++) {
+            for (int j = 0; j < areaX; j++) {
                 getContentPane().add(screenMatrix[i][j]);
             }
         }
         SwingUtilities.updateComponentTreeUI(getContentPane());
     }
 
-    private Square[][] populateMatrix(){
+    private Square[][] populateMatrix() {
         System.out.println("Populate");
         Square[][] tempMatrix = new Square[areaY][areaX];
         for (int i = 0; i < areaY; i++) {
@@ -56,7 +62,7 @@ public class GameGraphicsManager extends JFrame {
     }
 
     // Setts entire matrix to color
-    private void paintBufferMatrix(int color){
+    private void paintBufferMatrix(int color) {
         for (int i = 0; i < areaY; i++) {
             for (int j = 0; j < areaX; j++) {
                 this.bufferMatrix[i][j].setColor(color);
@@ -64,18 +70,18 @@ public class GameGraphicsManager extends JFrame {
         }
     }
 
-    private void placeObjects(GameObjectManager gameObjectManager){
-        for (int x = 0; x < gameObjectManager.size(); x++){
-            for (int y = 0; y < gameObjectManager.get(x).getPos().length; y++){
+    private void placeObjects(GameObjectManager gameObjectManager) {
+        for (int x = 0; x < gameObjectManager.size(); x++) {
+            for (int y = 0; y < gameObjectManager.get(x).getPos().length; y++) {
                 this.bufferMatrix[gameObjectManager.get(x).getPos().getY(y)][gameObjectManager.get(x).getPos().getX(y)].setColor(gameObjectManager.get(x).getColor());
             }
         }
     }
 
     // sets screenMatrix to the values of buffer to display
-    private void setDisplayBufferMatrix(){
-        for (int y = 0; y < areaY; y++){
-            for (int x = 0; x < areaX; x++){
+    private void setDisplayBufferMatrix() {
+        for (int y = 0; y < areaY; y++) {
+            for (int x = 0; x < areaX; x++) {
                 this.screenMatrix[y][x].setColor(this.bufferMatrix[y][x].getColor());
             }
         }
@@ -96,9 +102,9 @@ public class GameGraphicsManager extends JFrame {
 
     }
 
-    private void displayGameOverMatrix(){
+    private void displayGameOverMatrix() {
         getContentPane().removeAll();
-        getContentPane().setLayout(new GridLayout(3,3,0,0));
+        getContentPane().setLayout(new GridLayout(3, 3, 0, 0));
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 getContentPane().add(gameOverMatrix[i][j]);
@@ -107,10 +113,10 @@ public class GameGraphicsManager extends JFrame {
         SwingUtilities.updateComponentTreeUI(getContentPane());
     }
 
-    private void createGameOverMatrix(int Score){
+    private void createGameOverMatrix(int Score) {
         gameOverMatrix = new Square[5][5];
-        for(int i=0;i<5;i++){
-            for(int j=0;j<5;j++){
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
                 gameOverMatrix[i][j] = new Square(1);
             }
         }
@@ -118,21 +124,21 @@ public class GameGraphicsManager extends JFrame {
         gameOverMatrix[1][1] = new GameOverSquare(7, Score);
     }
 
-    private void genGameOverSides(int y, int x){
-        boolean change=false;
-        if (x<3) {
+    private void genGameOverSides(int y, int x) {
+        boolean change = false;
+        if (x < 3) {
             change = true;
             this.gameOverMatrix[x][0].randomColor();
         }
-        if (y<3) {
+        if (y < 3) {
             change = true;
             this.gameOverMatrix[0][y].randomColor();
         }
-        if (x<3) {
+        if (x < 3) {
             change = true;
             this.gameOverMatrix[3 - 1 - x][3 - 1].randomColor();
         }
-        if (y<3) {
+        if (y < 3) {
             change = true;
             this.gameOverMatrix[3 - 1][3 - 1 - y].randomColor();
         }
@@ -140,19 +146,6 @@ public class GameGraphicsManager extends JFrame {
         else return;
     }
 
-//    public void printScreen() {
-//        for (int i = 0; i < areaY; i++) {
-//            for (int j = 0; j < areaX; j++) {
-//                if (this.screenMatrix[i][j].color==6)
-//                    System.out.print(".");
-//                else System.out.print(this.screenMatrix[i][j].color);
-//            }
-//            System.out.println();
-//            System.out.println();
-//            System.out.println();
-//
-//        }
-//    }
 
     private void flashColor(int color) throws InterruptedException {
         for (int x = 0; x < 10; x++) {
@@ -164,7 +157,6 @@ public class GameGraphicsManager extends JFrame {
             Thread.sleep(20);
         }
     }
-
 
 
     public void clearLocation(int x, int y) {

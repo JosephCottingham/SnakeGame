@@ -1,3 +1,8 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: KeyboardListener holds the Important key codes and is called when keyboard action is made
+
 package Snake;
 
 import java.awt.event.KeyAdapter;
@@ -24,8 +29,9 @@ public class KeyboardListener extends KeyAdapter {
     public final static int BACKSLASH = 92;
 
     @Override
-    public void keyPressed(KeyEvent keyEvent){
-        switch (keyEvent.getExtendedKeyCode()){
+    public void keyPressed(KeyEvent keyEvent) {
+        // set Dir/menu select based on key pressed
+        switch (keyEvent.getExtendedKeyCode()) {
             case RIGHTARROW:
                 GameManager.gameObjects.setSnakeDir(1);
                 break;
@@ -51,16 +57,16 @@ public class KeyboardListener extends KeyAdapter {
                 GameManager.gameObjects.setSnakeDir(2);
                 break;
             case BACKSPACE:
-                if(GameManager.gameRunning.booleanValue()==false) GameManager.input = BACKSPACE;
+                if (GameManager.gameRunning.booleanValue() == false) GameManager.input = BACKSPACE;
                 break;
             case SPACE:
-                if(GameManager.gameRunning.booleanValue()==false) GameManager.input = SPACE;
+                if (GameManager.gameRunning.booleanValue() == false) GameManager.input = SPACE;
                 break;
             case ENTER:
-                if(GameManager.gameRunning.booleanValue()==false) GameManager.input = ENTER;
+                if (GameManager.gameRunning.booleanValue() == false) GameManager.input = ENTER;
                 break;
             case BACKSLASH:
-                if(GameManager.gameRunning.booleanValue()==false) GameManager.input = BACKSLASH;
+                if (GameManager.gameRunning.booleanValue() == false) GameManager.input = BACKSLASH;
                 break;
         }
     }

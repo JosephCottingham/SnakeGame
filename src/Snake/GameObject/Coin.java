@@ -1,22 +1,27 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Holds data for the coin which upon collection scores a point for the snake
+
 package Snake.GameObject;
 
 import java.util.Random;
 
-public class Coin extends GameObject{
+public class Coin extends GameObject {
     private Position position;
     private Random rand = new Random();
     private int ID;
 
-    public Coin(int ID, int areaX, int areaY){
+    public Coin(int ID, int areaX, int areaY) {
         this.areaX = areaX;
         this.areaY = areaY;
         this.ID = ID;
-        position = new Position(new int[]{rand.nextInt(this.areaY-2)+1}, new int[]{rand.nextInt(this.areaX-2)+1}, 1);
+        position = new Position(new int[]{rand.nextInt(this.areaY - 2) + 1}, new int[]{rand.nextInt(this.areaX - 2) + 1}, 1);
         randomPos();
     }
 
     @Override
-    public void collected(){
+    public void collected() {
         randomPos();
     }
 
@@ -35,9 +40,9 @@ public class Coin extends GameObject{
         randomPos();
     }
 
-    public void randomPos(){
-        position.setX(0,rand.nextInt(areaX-2)+1);
-        position.setY(0,rand.nextInt(areaY-2)+1);
+    public void randomPos() {
+        position.setX(0, rand.nextInt(areaX - 2) + 1);
+        position.setY(0, rand.nextInt(areaY - 2) + 1);
     }
 
     @Override
@@ -49,7 +54,6 @@ public class Coin extends GameObject{
     public Position getPos() {
         return position;
     }
-
 
 
     @Override

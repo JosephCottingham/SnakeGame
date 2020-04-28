@@ -1,23 +1,29 @@
+// CSE 205: 11333 | Tue/Thu 4:30 PM
+// Assignment: Six Final Project
+// Author: Joseph H Cottingham | 1216723703
+// Description: Hold data for a leaderboard member
+
 package Snake.LeaderBoard;
 
 import java.util.regex.Pattern;
 
 public class Member {
-    private int age=0;
+    private int age = 0;
     private String first;
     private String last;
-    private int score=0;
+    private int score = 0;
 
+    // pattern for checking if string is formatted as a float/int/double
     private Pattern pattern = Pattern.compile("-?\\d+(\\.\\d+)?");
 
-    Member(String first, String last, String age, String score){
+    Member(String first, String last, String age, String score) {
         if (isNumeric(age)) this.age = Integer.parseInt(age);
         if (isNumeric(score)) this.score = Integer.parseInt(score);
         this.first = first;
         this.last = last;
     }
 
-    Member(String first, String last, String age, int score){
+    Member(String first, String last, String age, int score) {
         if (isNumeric(age)) this.age = Integer.parseInt(age);
         this.score = score;
         this.first = first;
@@ -64,7 +70,7 @@ public class Member {
         this.pattern = pattern;
     }
 
-    // checks if string follows a numeric patter
+    // checks if string follows a numeric pattern
     public boolean isNumeric(String strNum) {
         if (strNum == null) {
             return false;
